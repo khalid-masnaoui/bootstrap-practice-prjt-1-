@@ -1,0 +1,123 @@
+.navbar {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+nav img {
+    max-width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+
+.navbar-nav li {
+    padding-right: 1.5rem;
+}
+
+.navbar-nav li a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(19, 97, 170) !important;
+}
+
+
+/* slider */
+
+.bd-example img {
+    width: 100%;
+    height: 70vh;
+    max-height: 70vh;
+}
+
+@media (max-width:768px) {
+    .bd-example img {
+        width: 100%;
+        height: 50vh;
+        max-height: 50vh;
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 1rem .4rem .9rem black;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    font-weight: 700;
+    text-shadow: .5rem .2rem .5rem black;
+}
+
+
+/* about */
+
+.narrow {
+    margin: 3rem auto;
+    padding: 3rem !important;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.subheading {
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 1rem;
+    padding-right: 0.6rem;
+}
+
+
+/* services */
+
+.container-fluid {
+    background: url(img/promo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.heading2 {
+    margin: 0 0 3rem 0;
+    text-transform: uppercase;
+    text-shadow: 1rem 0.5rem 0.6rem black;
+}
+
+.break-line {
+    width: 6rem;
+    border: 0.1rem solid black;
+    margin: 0 auto 2rem;
+}
+
+
+/* 
+team */
+
+.team img {
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    max-height: 150px;
+    filter: grayscale(1);
+}
+
+.team .card:hover img {
+    filter: grayscale(0);
+}
+
+{}
